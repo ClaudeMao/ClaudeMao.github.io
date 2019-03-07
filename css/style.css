@@ -1,8 +1,8 @@
-.top-header ul {
+.navbar ul {
     list-style-type:none;
 }
 
-.top-header li {
+.navbar li {
     float: left;
     width: 100px;
 }
@@ -19,7 +19,7 @@ p {
     text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)
 }
 
-menu ul {
+.menu ul {
     list-style-type:none;
 }
 

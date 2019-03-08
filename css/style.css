@@ -1,12 +1,10 @@
-.navbar ul {
-    list-style-type:none;
+header{
+    background-color:#0593d3;
 }
-
-.navbar li {
-    float: left;
-    width: 100px;
+nav{
+    width:100px;
 }
-
+/*所有超链接都不带下划线*/
 a {
     text-decoration: none;
 }

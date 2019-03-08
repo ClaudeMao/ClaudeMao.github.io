@@ -1,13 +1,35 @@
 header{
-    background-color:#0593d3;
-}
-nav{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0; 
+    width:100%; 
+    height:fit-content; 
+    background:#38a0dc;
+    /*哭了 这么个标题栏做了好几小时 还是查别人网站源码找出来的*/
+    }
+nav li{
+    list-style-type:none;
+    float:left;
     width:100px;
+    float:left;
+    background:#0593d3;
+    text-align:center;
+    margin-left:2px;
+    line-height:30px;
 }
+
+nav a:link{color:white;background-color:#0593d3;}
+nav a:visted{color:purple;}
+nav a:hover{color:black;font-weight:bold;}
+nav a{
+    display:block;
+    text-align:center;
+    height:30px;
+}
+
 /*所有超链接都不带下划线*/
-a {
-    text-decoration: none;
-}
+a {text-decoration: none;}
 
 p {
     font-weight: normal;
@@ -17,10 +39,19 @@ p {
     text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)
 }
 
-.menu ul {
+.menu {
+    position:fixed;
+    margin:0;
+    top:40px;
+    width:max-content;
+    text-align:center;
     list-style-type:none;
 }
 
-.menu ul li {
+.menu li {
+    display:block;
+    left:
     width: 200px;
+    margin-bottom:20px;
+    list-style-type:none;
 }

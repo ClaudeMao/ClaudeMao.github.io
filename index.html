@@ -9,27 +9,46 @@
         <meta name='author' content='ClaudeMao'>
     </head>
 <body>    <!--下面是主体部分-->
-  <header>
-    <nav><!--此处不带ul标签-->
-            <li><a href= 'https://ClaudeMao.github.io ' id ='top ' style='text-decoration:None;margin-bottom:0 '>Tech</a></li>
-            <li><a href=#>Life</a></li>
-            <li><a href=#>Portfolio</a></li>
-    </nav>
-  </header><!--header的结束标签-->
+<ul>
+<div class='dropdown'>
+  <button class='dropbtn' id='top'>Tech</button>
+    <div class='dropdown-content'>
+      <a href=#>Python</a>
+      <a href=#>Html5</a>
+      <a href=#>CSS</a>
+      <a href=#>Javascript</a>
+      <a href=#>Git</a>
+      <a href=#>SQL</a>
+    </div><!--dropbtn-content的结束标签-->
+</div><!--dropdown的结束标签-->
+<div class='dropdown'>
+  <button class='dropbtn'>Life</button>
+    <div class='dropdown-content'>
+      <a href=#>日常反思</a>
+      <a href=#>人生经验</a>
+      <a href=#>其他有用</a>
+    </div><!--dropbtn-content的结束标签-->
+</div>
+<div class='dropdown'>
+  <button class='dropbtn'>Portfolio</button>
+    <div class='dropdown-content'>
+      <a href=#>个人简历</a>
+      <a href=#>好友人脉</a>
+    </div><!--dropbtn-content的结束标签-->
+</div>
+<li style='float:right'><a href=#>Login</a></li>
+</ul>
+
+
 <br/>
 <div style='background-color:#EEEEEE;height:90%;width:20%;float:left '>
 <div class='menu '>
-      <li>Menu</li>
-      <li><a href=#>Python</a></li>
-      <li><a href=#>Html5</a></li>
-      <li><a href=#>CSS</a></li>
-      <li><a href=#>Git</a></li>
-      <li><a href=#>SQL</a></li>
+      
   </div>
 </div>
 <div id="content" style="background-color:white;height:100%;width:80%;float:right;">
     
-<a href='#top ' style='text-decoration:None;float:right '>返回顶部</a>
+<a class='back-to-top' href='#top' float='right'>返回顶部</a>
 <br />
 <hr />
 <footer style="background-color:white;clear:both;text-align:center;">

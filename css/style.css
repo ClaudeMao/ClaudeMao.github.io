@@ -1,8 +1,25 @@
-body{
-    background-image:url('https://raw.githubusercontent.com/ClaudeMao/ClaudeMao.github.io/master/images/background.png')
-    /*background-size: auto; 功能不全 不知道为什么加上就不显示图片了*/
-    background-color:white;
-    }
+/*设置导航栏下面的图片背景*/
+.top-image{
+     background-color:#2b2121;
+     height: 200px;
+     width:auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     display:block;
+     z-index:-1;
+}
+/*设置导航栏下面图片上的字*/
+.top-text{
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+}
+/*设置导航栏*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -82,9 +99,30 @@ ul li:hover{
     background-color:#9E9E9E;
 }
 
+#content{
+    position:sticky;
+    display:block;
+}
+
+/*留白*/
+.blank{
+    height:10px;
+}
+
 /*所有超链接都不带下划线*/
 a {text-decoration: none;}
 
+/*设置返回顶部的框*/
+.back-to-top{
+    color:white;
+    float:right;
+    font-weight:bold;
+    padding:10px;
+    height:40px;
+    width:40px;
+    text-align:center;
+    background-color:black;
+}
 /*正文段落字体及颜色*/
 p {
     font-weight: normal;
